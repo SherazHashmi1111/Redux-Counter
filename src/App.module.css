@@ -1,0 +1,10 @@
+body{
+    width: 30vw;
+    margin: 0 auto;
+}
+
+@media (max-width: 1025px) {
+    body{
+        width: 75vw;
+    }
+}

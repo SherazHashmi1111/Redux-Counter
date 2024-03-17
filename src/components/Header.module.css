@@ -1,0 +1,46 @@
+.header{
+    width: 100vw;
+    background-color: navy;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 1rem 0;
+}
+.header__nav{
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+}
+.header__heading{
+ font-size: 3.2rem;
+ font-weight: 700;
+ font-family: 'Varela Round', 'sans-serif';
+ letter-spacing: .3rem;
+}
+.header__nav__ul{
+    display: flex;
+    gap: 8rem;
+}
+.header__nav__ul li{
+    list-style: none;
+    font-size: 1.8rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .2s;
+}
+.header__nav__ul button{
+ padding: .5rem 1rem;
+ font-size: 1.4rem;
+ border: 1px solid white;
+ border-radius: 3px;
+ transition: all .2s;
+ cursor: pointer;
+}
+.header__nav__ul li:hover,
+.header__nav__ul button:hover{
+    transform: scale(1.1);
+    box-shadow: 0 .5rem 2rem rgba(0, 0, 0, 0.5);
+}
